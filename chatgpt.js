@@ -24,7 +24,7 @@ gpt.requestMessage = function(requestMessage) {
       ],
       model: 'gpt-4o-mini',// 모델 선택 gpt-3.5-turbo gpt-4o
       max_tokens: 100, // 비용발생 ex) 200은 최대 200단어 생성
-      temperature: 1.0, // 창의성 발휘 여부 0에 가까우면 strict, 2에 가까우면 자유롭게
+      temperature: 1.0, // 가까우면 엄격, 2에 가까우면 자유
       stop: null,
     })
     console.log(responseMessage)
