@@ -1,7 +1,8 @@
 import Vue from 'vue'
+import chatgpt from '@/js/chatgpt.js';
 
 /** prop 설정 */
-Vue.prototype.$commMessage = message;
+Vue.prototype.$chatgpt = chatgpt;
 /** prop 설정 끝 */
 
 /** config 설정 */
